@@ -53,7 +53,7 @@ def place_order(menu):
                 i += 1
 
         # TODO: Ask customer to input menu item number
-        menu_selection = input("Please enter the number of the item you would like to order: ")
+        menu_selection = input("Type menu number: ")
 
         # TODO: Update the order list using the update_order function
         # TODO: Send the order list, menu selection, and menu items as arguments
@@ -116,7 +116,7 @@ def update_order(order, menu_selection, menu_items):
 
             # TODO: Ask the customer for the quantity of the menu item
             # TODO: Use the item name variable in the question
-            quantity = input(f"How many {item_name} would you like to order? ")
+            quantity = input(f"What quantity of {item_name} would you like? (This will default to 1 if number is note entered)")
 
             # TODO: Check if the quantity is a number, default to 1 if not
             if quantity.isdigit():
@@ -137,13 +137,13 @@ def update_order(order, menu_selection, menu_items):
         # TODO: When the user's input isn't valid, 
         # TODO: tell the customer that their input isn't valid
         else:
-            print(f"{menu_selection} isn't valid. Please enter a number from the menu.")
+            print(f"{menu_selection} was not a menu option. Please enter a number from the menu.")
 
     # TODO: When the menu selection wasn't valid:
     # TODO: Print the menu selection and 
     # TODO: Tell the customer they didn't select a menu option
     else:
-        print(f"{menu_selection} is not a menu item. Please try again.")
+        print(f"{menu_selection} was not a menu option. Please try again.")
 
     # TODO: Return the updated order
     return order
