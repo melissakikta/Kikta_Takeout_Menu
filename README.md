@@ -13,7 +13,7 @@ This application uses Python's looping ability to create a user friendly food or
   * [Contact](#🗨️-contact)
 
 ## 📝 Usage
-<strong>CI/CD Useage </strong>
+<strong>Menu Useage </strong>
 
 Here are screenshots of the command line interaction.  
 
@@ -22,9 +22,14 @@ Here are screenshots of the command line interaction.
 ![Navigation](./assets/images/order.png)
 
 
-<u><strong>Live Site</strong></u>
+<u><strong>Total Order</strong></u>
 
-![Navigation](./assets/images/live.png)
+![Navigation](./assets/images/total.png)
+
+
+<u><strong>Invalid Selection</strong></u>
+
+![Navigation](./assets/images/wrong.png)
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
@@ -32,10 +37,10 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 
 ## ⭐ Features
 
-  * Repository Branches
-  * Main Protections
-  * GitHub Actions on Pull Requests
-  * Automated Cypress Testing
+  * Displays the Entire Menu
+  * Checks for Vaild Selections
+  * Calculates the Total
+  * Prints Order with Quantities and Total
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
@@ -43,17 +48,9 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 
 ## 🫱🏽‍🫲🏾 Credits
 
-For CI/CD purposes, GitHub Actions were used.
+This application was created using basic Python3 skills. 
 
-[GitHub Actions](https://github.com/features/actions)
-
-For testing purposes, Cypress was used. 
-
-[Cypress](https://docs.cypress.io/app/get-started/why-cypress)
-
-This application was created to requiresthe use of Express.js, MongoDB database, and Mongoose ODM. 
-
-[MongoDB Docs](https://www.mongodb.com/docs/)
+[Python Docs](https://docs.python.org/3/library/)
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
 
