@@ -2,9 +2,8 @@
 This application uses Python to display and interact with a menu to build an order. 
 
 ## 📚 Description
-This application showcases the developer's ability to set up a CI/CD pipeline to run Cypress tests on code sent through a Pull Request to a Develop branch before it is merged and deployed to the main branch. This application uses GitHub Actions, Cypress, Render, and MongoDB Atlas for the CI/CD. 
+This application uses Python's looping ability to create a user friendly food ordering system. Users will use command line prompts to select food items and their quantities. The application will calculate a total price and display the entire order upon completion.  
 
-[Deployed Application](https://kikta-cicd.onrender.com) 
 
 ## 🚀 Table of Contents
   * [Usage](#📝-Usage)
@@ -16,11 +15,11 @@ This application showcases the developer's ability to set up a CI/CD pipeline to
 ## 📝 Usage
 <strong>CI/CD Useage </strong>
 
-Here are screenshots of the appilcation Continuous Integration and Continuous Deployment 
+Here are screenshots of the command line interaction.  
 
-<u><strong>GitHub Branches</strong></u>
+<u><strong>Order</strong></u>
 
-![Navigation](./assets/images/branches.png)
+![Navigation](./assets/images/order.png)
 
 
 <u><strong>Live Site</strong></u>
